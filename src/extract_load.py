@@ -44,7 +44,7 @@ def buscar_todos_dados_tickers(tickers_banco):
     for simbolo in tickers_banco:
         dados = buscar_dados_tickers(simbolo)
         todos_dados.append(dados)
-        return pd.concat(todos_dados)
+    return pd.concat(todos_dados)
 
 def salvar_postgres(df, engine):
     df.to_sql('tickers_banco', engine, schema='public', if_exists='replace', index=True, index_label=None)
