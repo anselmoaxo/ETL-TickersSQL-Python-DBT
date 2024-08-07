@@ -55,3 +55,4 @@ if __name__ == '__main__':
     salvar_postgres(dados_tickers, engine)
     
     
+    

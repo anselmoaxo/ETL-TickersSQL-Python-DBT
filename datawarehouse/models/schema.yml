@@ -1,0 +1,10 @@
+
+sources:
+  - name: sources
+    database: airflow_x5xs
+    schema: public
+    tables:
+      - name: tickers_banco
+      
+     
+      

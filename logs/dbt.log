@@ -1,0 +1,28 @@
+[0m16:42:23.260670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027009AA8390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002700977CC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027009976590>]}
+
+
+============================== 16:42:23.269665 | f993b71c-d9ab-46c1-9979-37fa53a3506c ==============================
+[0m16:42:23.269665 [info ] [MainThread]: Running with dbt=1.8.4
+[0m16:42:23.270664 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\csouz\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:44:00.248018 [debug] [MainThread]: Starter project path: C:\Users\csouz\OneDrive\Área de Trabalho\Projetos\projeto-DBT\.venv\Lib\site-packages\dbt\include\starter_project
+[0m16:44:00.347798 [info ] [MainThread]: 
+Your new dbt project "datawarehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:44:00.351378 [info ] [MainThread]: Setting up your profile.
+[0m16:45:27.419379 [info ] [MainThread]: Profile datawarehouse written to C:\Users\csouz\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:45:27.423377 [debug] [MainThread]: Command `dbt init` succeeded at 16:45:27.423377 after 184.28 seconds
+[0m16:45:27.424376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027009AAAD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027009AA5890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002700385DFD0>]}
+[0m16:45:27.426372 [debug] [MainThread]: Flushing usage events
