@@ -1,0 +1,10 @@
+
+sources:
+  - name: sources
+    database: destino_dw
+    schema: public
+    tables:
+      - name: tickers_banco
+      
+     
+      
