@@ -1,2 +1,40 @@
-.venv
-.env
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.eggs/
+*.env
+env/
+venv/
+ENV/
+Pipfile.lock
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# DBT
+dbt_packages/
+target/
+
+# PostgreSQL
+*.sql
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do editor de código
+.vscode/
+.idea/
+*.swp
+
+# Docker
+docker-compose.override.yml
